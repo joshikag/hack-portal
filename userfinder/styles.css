@@ -1,0 +1,327 @@
+/* default code */
+* {box-sizing: border-box;}
+
+body{
+    margin:0;
+}
+
+/* default code end */
+
+
+/* navbar */
+.Navbar{
+    display: flex;
+    margin-top:10px;
+}
+
+.heading-nav{
+    /* border:2px red solid; */
+    width:50%;
+    font-size:38px;
+    color: #3D5A80;
+    padding:20px;
+}
+
+.lnks{
+    /* border: 2px solid blue; */
+    display: flex;
+    width:50%;
+    justify-content:space-evenly;
+    padding:20px;
+}
+
+.link1,.link2,.link3{
+    /* border:2px red solid; */
+    font-size:38px;
+}
+
+.link1 a,.link2 a,.link3 a{
+    color: #3D5A80;
+    padding:0 30px;
+}
+
+.mob-Navbar{
+    margin-top:13px;
+    /* border:2px red solid; */
+    /* width:10%; */
+    margin-left:10px;
+    padding:20px;
+    /* text-align: end; */
+    /* background-color:black; */
+}
+
+#mob-nav-icon{
+    font-size:40px;
+}
+
+.link1 a:hover, .link2 a:hover, .link3 a:hover{
+    background-color: #3D5A80;
+    color:white;
+    padding:0px 30px;
+    border-bottom-left-radius:50px;
+    border-top-left-radius:50px;
+    border-bottom-right-radius:50px;
+    border-top-right-radius:50px;
+}
+/* navbar end */
+#head1{
+    margin-top: -400px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+margin-left:120px;
+margin-right: 480px;
+color: #3D5A80;
+
+}
+#head2{
+    margin-top: 40px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+margin-left:120px;
+margin-right: 480px;
+color: #293241;
+
+}
+.shapes{
+    margin-left: 1020px;
+    margin-top: -10px;
+    overflow-x: hidden;
+}
+.shape1{
+    width:151px;
+    height:151px;
+    background: #E0FBFC;
+    transform: rotate(30deg);
+    position: relative;
+    left:35px;
+    top:140px;
+    z-index:-1;
+}
+
+.shape2{
+    position: relative;
+    width:159px;
+    height:159px;
+    border-radius:50%;
+    background-color: #EE6C4D;
+    left:40px;
+    bottom:120px;
+    z-index:-2;
+}
+
+.shape3{
+    width: 0; 
+    height: 0; 
+    border-left: 115px solid transparent;
+    border-right: 85px solid transparent;
+    border-bottom: 130px solid #98C1D9;
+    z-index:-3;
+    transform: rotate(-135deg);
+    position: relative;
+    bottom:260px;
+    left:120px;
+}
+form span{
+    color: #3D5A80;
+}
+form{
+    margin-top: 40px;
+    margin-left:250px ;
+}
+.second{
+    margin-left: 380px;
+    margin-top: -200px;
+}
+.btns button{
+    cursor:pointer;
+    width:150px;
+    height:40px;
+    margin-left:660px;
+    border: 2px solid #3D5A80;
+    color:#3D5A80;
+    font-size:25px;
+    font-family:Montserrat;
+    background-color: transparent;
+    background-repeat:no-repeat;
+    outline:none;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.btns button:hover{
+    background-color: #3D5A80;
+    color:white;
+}
+[type="radio"]:checked + span:after,
+[type="radio"]:checked + span:before,
+[type="radio"]:checked + span:after {
+  border: 2px solid #3D5A80;
+}
+[type="radio"]:checked + span:after,
+[type="radio"]:checked + span:after {
+  background-color: #3D5A80
+}
+
+@media only screen and (min-width: 993px){
+    .mob-Navbar{
+        display:none;
+    }
+}
+
+@media only screen and (max-width: 1299px){
+
+    .heading-nav{
+        font-size:35px;
+    }
+
+    .link1,.link2,.link3{
+        font-size:35px;
+    }
+    
+}
+
+@media only screen and (max-width: 992px){
+    .lnks{
+        display: none;
+    }
+
+    .heading-nav{
+        text-align: end;
+        font-size:40px;
+        margin-right:20px;
+    }
+
+    .Navbar{
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .lnks{
+        display: none;
+    }
+
+    .heading-nav{
+        text-align: end;
+        font-size:40px;
+    }
+
+    .Navbar{
+        justify-content: space-between;
+    }
+    
+}
+
+@media only screen and (max-width: 444px){
+    .heading-nav{
+        font-size:30px;
+    }
+
+    #mob-nav-icon{
+        font-size:30px;
+    }
+}
+/* navbarend */
+
+@media only screen and (max-width: 768px){
+    #head1{
+       margin-right: 40px;
+       margin-left: 50px;
+    }
+    #head2{
+        margin-left: 50px;
+    }
+    form{
+        margin-left: 100px;
+    }
+    .btns{
+        margin-left: -70px;
+    }
+    .shapes{
+        margin-left: 780px;
+    }
+}
+@media only screen and (max-width: 690px) {
+    .shapes{
+        overflow-x: hidden;}
+        #head1{
+            margin-right: 30px;
+        font-size: 30px;    }
+        #head2{
+            margin-right: 30px;
+        }
+        form{
+            margin-left: 50px;
+        }
+        .second{
+           margin-left: 0px;
+            margin-top: 10px;
+        }
+        .btns{
+            margin-left: -350px;
+        }
+    }
+ @media only screen and (max-width: 1300px){
+                .shapes{
+                margin-left: 900px;}
+                    
+            }
+ @media only screen and (max-width: 992px){
+                .shapes{
+                    display: none;
+                }
+                #head1{
+                    margin-top: 20px;
+                    margin-right: 120px;
+                }
+                #head2{white-space: nowrap;}
+                form{
+                    margin-left: 140px;
+                }
+            }
+@media only screen and (max-width: 768px){
+                form{
+                    margin-left: 60px;
+                }
+                .btns .btn-flat{
+                    margin-right:20px ;
+                }
+            }
+@media only screen and (max-width: 414px){
+                #head1{
+                    margin-right: 10px;
+
+                }
+            }
+            
+            @media only screen and (max-width: 1180px){
+                .shapes{
+                    display: none;
+                }
+                #head1{
+                    margin-top: 10px;
+                }
+            }
+
+            @media only screen and (max-width: 1400px){
+                .shapes{
+                    margin-left: 900px;
+                }
+            }
+            @media only screen and (max-width: 1240px){
+                .shapes{
+                    margin-left: 850px;
+                }
+            }
+    
+
+
+
+
+
+
+
