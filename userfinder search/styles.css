@@ -1,0 +1,290 @@
+/* default code */
+* {box-sizing: border-box;}
+
+body{
+    margin:0;
+}
+
+/* default code end */
+
+
+/* navbar */
+.Navbar{
+    display: flex;
+    margin-top:49px;
+}
+
+.heading-nav{
+    /* border:2px red solid; */
+    width:50%;
+    font-size:38px;
+    color: #3D5A80;
+    padding:20px;
+}
+
+.lnks{
+    /* border: 2px solid blue; */
+    display: flex;
+    width:50%;
+    justify-content:space-evenly;
+    padding:20px;
+}
+
+.link1,.link2,.link3{
+    /* border:2px red solid; */
+    font-size:38px;
+}
+
+.link1 a,.link2 a,.link3 a{
+    color: #3D5A80;
+    padding:0 30px;
+}
+
+.mob-Navbar{
+    margin-top:13px;
+    /* border:2px red solid; */
+    /* width:10%; */
+    margin-left:10px;
+    padding:20px;
+    /* text-align: end; */
+    /* background-color:black; */
+}
+
+#mob-nav-icon{
+    font-size:40px;
+}
+
+.link1 a:hover, .link2 a:hover, .link3 a:hover{
+    background-color: #3D5A80;
+    color:white;
+    padding:0px 30px;
+    border-bottom-left-radius:50px;
+    border-top-left-radius:50px;
+    border-bottom-right-radius:50px;
+    border-top-right-radius:50px;
+}
+
+
+/* navbar end */
+
+#one,#two{
+    background-color: #3D5A80;
+    padding:20px;
+    width:60%;
+    margin:0 auto;
+    /* border:red solid 2px; */
+    border-top-left-radius:45px;
+    border-bottom-right-radius:45px;
+    display:flex;
+    flex-direction: column;
+    height:100px;
+    margin-bottom: 20px;
+    
+}
+#one{
+    margin-top: -280px;
+}
+#two{
+    margin-bottom: 50px;
+}
+#one-head,#two-head{
+    font-size:28px;
+    text-transform: capitalize;
+    color:white;
+    margin-left: 18px;
+    font-family: Montserrat;
+    margin-top: -10px;
+}
+#skill-1,#skill-3{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: white;
+margin-left: 18px;
+}
+#skill-2,#skill-4{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: white;
+   margin-left: 150px;
+   margin-top: -30px;
+    
+}
+
+h4{font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 49px;
+color: #3D5A80;
+margin-left: 140px;
+margin-top: -40px;}
+.arrow1 #arrow{
+    margin-left: 60px;
+    outline: none;
+    border: none;
+} 
+.arrow1 #arrow:hover
+{
+    background-color:transparent;
+    outline: transparent;
+}
+
+body{
+    overflow-x: hidden;
+}
+.shapes{
+    margin-left:1050px;
+    margin-top: -10px;
+   
+    
+}
+.shape1{
+    width:98.5px;
+    height:98.5px;
+    background: #E0FBFC;
+    transform: rotate(30deg);
+    position: relative;
+    left:70px;
+    top:50px;
+    z-index:-1;
+}
+
+.shape2{
+    position: relative;
+    width:118px;
+    height:117px;
+    border-radius:50%;
+    background-color: #EE6C4D;
+    left:40px;
+    bottom:120px;
+    z-index:-2;
+}
+
+.shape3{
+    width: 0px; 
+    height: 0px; 
+    border-left: 80px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 95px solid #98C1D9;
+    z-index:-3;
+    transform: rotate(-145deg);
+    position: relative;
+    bottom:220px;
+    left:100px;
+}
+
+@media only screen and (min-width: 993px){
+    .mob-Navbar{
+        display:none;
+    }
+}
+
+@media only screen and (max-width: 1299px){
+
+    .heading-nav{
+        font-size:35px;
+    }
+
+    .link1,.link2,.link3{
+        font-size:35px;
+    }
+
+}
+
+@media only screen and (max-width: 992px){
+    .lnks{
+        display: none;
+    }
+
+    .heading-nav{
+        text-align: end;
+        font-size:40px;
+        margin-right:20px;
+    }
+
+    .Navbar{
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .lnks{
+        display: none;
+    }
+
+    .heading-nav{
+        text-align: end;
+        font-size:40px;
+    }
+
+    .Navbar{
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (max-width: 444px){
+    .heading-nav{
+        font-size:30px;
+    }
+
+    #mob-nav-icon{
+        font-size:30px;
+    }
+}
+@media only screen and (max-width: 992px){
+    .shapes{display: none;
+    }
+    #one{
+        margin-top: 20px;
+    }
+    #one,#two{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 768px){
+    #one,#two{
+        height: 150px;
+    }
+}
+@media only screen and (max-width: 370px){
+    #one,#two{
+        width: 80%;
+        height: 200px;
+    }
+    h4{
+        white-space: nowrap;
+        font-size: 30px;
+        margin-left: 70px;
+    }
+    .arrow1 #arrow{
+        margin-left: 10px;
+    } 
+    #one-head,#two-head{
+        white-space: nowrap;
+    }
+}
+
+@media only screen and (max-width: 1299px){
+    .shapes{
+        margin-left: 1000px;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .shapes{
+        margin-left: 950px;
+    }
+}
+@media only screen and (max-width: 1150px){
+    .shapes{
+        margin-left: 790px;
+    }
+    #one,#two{
+        margin-left: 120px;
+    }
+}

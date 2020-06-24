@@ -1,0 +1,88 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User finder</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <section class="Navbar">
+
+        <div class="mob-Navbar">
+            <ul id="slide-out" class="sidenav">
+                <li>
+                    <div class="user-view">
+                        <!-- <div class="background">
+                        <img src="images/office.jpg">
+                      </div> -->
+                        <!-- <a href="#user"><img class="circle" src="images/yuna.jpg"></a> -->
+                        <a href="#"><span class="name">John Doe</span></a>
+                        <a href="#"><span class="email">jdandturk@gmail.com</span></a>
+                    </div>
+                </li>
+            
+                <li><a href="../home_page/index.html" style="color: #3D5A80;">Search</a></li>
+            
+                <li><a href="../myteams/index.html" style="color: #3D5A80;">MyTeams</a></li>
+            
+                <li><a href="../myprofile/index.html" style="color: #3D5A80;">Profile</a></li>
+            </ul>
+            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons" id="mob-nav-icon">menu</i></a>
+        </div>
+
+
+        <div class="heading-nav">
+            HackPortal
+        </div>
+
+        <div class="lnks">
+            <div class="link1">
+                <a href="../home_page/index.html">Search</a>
+            </div>
+    
+            <div class="link2">
+                <a href="../myteams/index.html">MyTeams</a>
+            </div>
+    
+            <div class="link3">
+                <a href="../myprofile/index.html">Profile</a>
+            </div>
+        </div>
+    </section>
+
+    <br>
+    <div class="arrow1">
+        <a href="#">
+    <button class="btn btn-flat"id="arrow"style="color:#3D5A80"><i class="material-icons"style="font-size:40px;">arrow_back</i></button></a>
+</div>
+    <h4>Search Results</h4>
+    <div class="shapes">
+        <div class="shape1"></div>
+        <div class="shape2"></div>
+        <div class="shape3"></div>
+    </div>
+    <div id="one">
+        <h5 id="one-head">Sample Name</h5>
+        <p id="skill-1">Blockchain</p>
+        <p id="skill-2">Web Dev</p>
+    
+    </div>
+    <br>
+
+    <div id="two">
+        <h5 id="two-head">Sample Name</h5>
+        <p id="skill-3">Design-UI/UX</p>
+        <p id="skill-4">App Dev</p>
+        
+    </div>
+    </body>
+    </html>
