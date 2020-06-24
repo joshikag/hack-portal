@@ -11,7 +11,7 @@ body{
 /* navbar */
 .Navbar{
     display: flex;
-    margin-top:10px;
+    margin-top: 49px;
 }
 
 .heading-nav{
@@ -108,15 +108,22 @@ body{
     width:150px;
     height:40px;
     margin-left:900px;
-    border: 2px solid #3D5A80;
+    border: none;
     color:#3D5A80;
     font-size:25px;
     font-family:Montserrat;
     background-color: transparent;
     background-repeat:no-repeat;
     outline:none;
-  margin-top: 100px;
+  margin-top: 80px;
   margin-bottom: 50px;
+}
+.btns #rej{
+    margin-left: 680px;
+}
+.btns #acc{
+    margin-top: -90px;
+    
 }
 
 .btns button:hover{
@@ -210,61 +217,6 @@ margin-top: -400px;
         justify-content: space-between;
     }
 }
-
-@media only screen and (max-width: 992px){
-    .lnks{
-        display: none;
-    }
-
-    .heading-nav{
-        text-align: end;
-        font-size:40px;
-    }
-
-    .Navbar{
-        justify-content: space-between;
-    }
-}
-
-@media only screen and (max-width: 444px){
-    .heading-nav{
-        font-size:30px;
-    }
-
-    #mob-nav-icon{
-        font-size:30px;
-    }
-}
-@media only screen and (max-width: 1024px){
-    .shapes{
-        margin-left: 750px;
-        
-    }
-    .btns{
-        margin-left: -200px;
-    }
-}
-@media only screen and (max-width:414px){
-    #desc{margin-right: 30px;
-    margin-left: 30px;
-    font-size: 23px;
-    }
-    #des,#size,#hname,#name,#skills,#mates{
-        margin-left: 30px;
-    }
-    .btns{
-        margin-left: -700px;
-        
-    }
-    .arrow1{
-        margin-left: -40px;
-    }
-    #sk,#tm{
-        margin-left: 35px;
-        font-size: 23px;
-    }
-
-}
 @media only screen and (max-width:360px){
     .btns{
         margin-left: -750px;
@@ -275,7 +227,7 @@ margin-top: -400px;
         margin-right: 10px;
     }
     .btns{
-        margin-left: -650px;
+        margin-left: -500px;
     }
     .arrow1{
         margin-left: -10px;
@@ -305,13 +257,17 @@ margin-top: -400px;
 }
 @media only screen and (min-width: 992px) {
     .shapes{
-        margin-left: 680px; 
-    overflow-x: hidden;   }
+        margin-left: 620px; 
+    overflow-x: hidden; 
+    }
+    .btns{
+        margin-left: -200px;
+    }
 }
 @media only screen and (min-width: 1024px) and(max-width:1200px){
     .shapes{
         overflow-x: hidden;
-        margin-left: 750px;
+        margin-left: 720px;
     }
     .btns{
         overflow-x: hidden;
@@ -331,6 +287,6 @@ margin-top: -400px;
     }
     .btns{
        margin-right: 20px;
-       overflow-x: hidden;
+       
     }
 }
